@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const Hero = () => {
   return (
@@ -10,7 +11,7 @@ const Hero = () => {
         </div>
         {/*Right Section*/}
         <div>
-        <img src='sofa.png' alt='sofa' className='h-[1000px] w-[753px] object-cover transform scale-x-[-1]'/>
+        <Image src='/sofa.png' alt='sofa' width={753} height={1000} className='h-[1000px] w-[753px] object-cover transform scale-x-[-1]'/>
         </div>
     </div>
   )

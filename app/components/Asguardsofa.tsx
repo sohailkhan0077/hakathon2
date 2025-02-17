@@ -1,11 +1,13 @@
 import React from 'react'
+import Image from 'next/image'
+import { Fullscreen } from 'lucide-react'
 
 const Asguardsofa = () => {
   return (
     <div>
       <div className='bg-[#FFF9E5] h-[639px] w-full flex'>
         <div className='flex'>
-            <img className='h-auto' src='Asguardsofa.png'></img>
+            <Image className='h-auto' src='/asguardsofa.png' alt="asguard sofa" height={639} width={1920} />
         </div>
         <div className='flex justify-center items-center m-40'>
             <div className='text-center'>

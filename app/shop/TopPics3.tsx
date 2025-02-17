@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const TopPics3 = () => {
   return (
@@ -10,10 +11,12 @@ const TopPics3 = () => {
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 ">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
-            src="toppics9.png"
+            src="/toppics9.png"
             alt="content"
+            height={50}
+            width={100}
           />
           
           <p className="leading-relaxed text-base">
@@ -26,10 +29,12 @@ const TopPics3 = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
-            src="toppics10.png"
+            src="/toppics10.png"
             alt="content"
+            height={50}
+            width={100}
           />
           
           <p className="leading-relaxed text-base">
@@ -42,10 +47,12 @@ const TopPics3 = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6">
-          <img
+          <Image
             className="h-40 rounded w-full object-contain object-center mb-6"
-            src="toppics11.png"
+            src="/toppics11.png"
             alt="content"
+            height={50}
+            width={100}
           />
           
           <p className="leading-relaxed text-base">
@@ -58,10 +65,12 @@ const TopPics3 = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
-            src="toppics12.png"
+            src="/toppics12.png"
             alt="content"
+            height={50}
+            width={100}
           />
           
           <p className="leading-relaxed text-base">

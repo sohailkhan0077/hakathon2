@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -19,10 +20,10 @@ const Footer = () => {
           <div>
             <h4 className="text-gray-700 font-medium mb-4">Links</h4>
             <nav className="flex flex-col gap-4">
-              <a href="#" className="text-gray-900 hover:text-gray-500">Home</a>
-              <a href="#" className="text-gray-900 hover:text-gray-500">Shop</a>
-              <a href="#" className="text-gray-900 hover:text-gray-500">About</a>
-              <a href="#" className="text-gray-900 hover:text-gray-500">Contact</a>
+              <Link href="#" className="text-gray-900 hover:text-gray-500">Shop</Link>
+              <Link href="#" className="text-gray-900 hover:text-gray-500">Home</Link>
+              <Link href="#" className="text-gray-900 hover:text-gray-500">About</Link>
+              <Link href="#" className="text-gray-900 hover:text-gray-500">Contact</Link>
             </nav>
           </div>
 
@@ -30,9 +31,9 @@ const Footer = () => {
           <div>
             <h4 className="text-gray-600 font-medium mb-4">Help</h4>
             <nav className="flex flex-col gap-4">
-              <a href="#" className="text-gray-900 hover:text-gray-500">Payment Options</a>
-              <a href="#" className="text-gray-900 hover:text-gray-500">Returns</a>
-              <a href="#" className="text-gray-900 hover:text-gray-500">Privacy Policies</a>
+              <Link href="#" className="text-gray-900 hover:text-gray-500">Payment Options</Link>
+              <Link href="#" className="text-gray-900 hover:text-gray-500">Returns</Link>
+              <Link href="#" className="text-gray-900 hover:text-gray-500">Privacy Policies</Link>
             </nav>
           </div>
 

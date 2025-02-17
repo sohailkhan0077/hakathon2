@@ -1,5 +1,6 @@
 import React from 'react'
 import { Clock, Calendar } from 'lucide-react';
+import Image from 'next/image';
 
 const Ourblogs = () => {
   return (
@@ -19,10 +20,12 @@ const Ourblogs = () => {
     <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
       <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
         <div className="rounded-lg h-96 overflow-hidden">
-          <img
+          <Image
             alt="content"
             className="object-cover object-center h-full w-full"
-            src="blog1.jfif"
+            src="/blog1.jfif"
+            height={96}
+            width={120}
           />
         </div>
         <p className="text-base text-center leading-relaxed mt-5">
@@ -51,10 +54,12 @@ const Ourblogs = () => {
       </div>
       <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
         <div className="rounded-lg h-96 overflow-hidden">
-          <img
+          <Image
             alt="content"
             className="object-cover object-center h-full w-full"
-            src="blog2.jfif"
+            src="/blog2.jfif"
+            height={96}
+            width={120}
           />
         </div>
         <p className="text-base text-center leading-relaxed mt-5">
@@ -83,10 +88,12 @@ const Ourblogs = () => {
       </div>
       <div className="p-4 md:w-1/3 sm:mb-0 mb-6">
         <div className="rounded-lg h-96 overflow-hidden">
-          <img
+          <Image
             alt="content"
             className="object-cover object-center h-full w-full"
-            src="blog3.jfif"
+            src="/blog3.jfif"
+            height={96}
+            width={120}
           />
         </div>
         <p className="text-base text-center leading-relaxed mt-5">

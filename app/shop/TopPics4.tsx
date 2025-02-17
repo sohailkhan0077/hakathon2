@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 const TopPics4 = () => {
   return (
@@ -10,10 +11,12 @@ const TopPics4 = () => {
     <div className="flex flex-wrap -m-4">
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6 ">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
-            src="toppics13.png"
+            src="/toppics13.png"
             alt="content"
+            height={100}
+            width={100}
           />
           
           <p className="leading-relaxed text-base">
@@ -26,10 +29,12 @@ const TopPics4 = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
-            src="toppics14.png"
+            src="/toppics14.png"
             alt="content"
+            height={100}
+            width={100}
           />
           
           <p className="leading-relaxed text-base">
@@ -42,10 +47,12 @@ const TopPics4 = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className=" p-6">
-          <img
+          <Image
             className="h-40 rounded w-full object-contain object-center mb-6"
-            src="toppics15.png"
+            src="/toppics15.png"
             alt="content"
+            height={100}
+            width={100}
           />
           
           <p className="leading-relaxed text-base">
@@ -58,10 +65,12 @@ const TopPics4 = () => {
       </div>
       <div className="xl:w-1/4 md:w-1/2 p-4">
         <div className="p-6 rounded-lg">
-          <img
+          <Image
             className="h-40 rounded w-full object-cover object-center mb-6"
-            src="toppics16.png"
+            src="/toppics16.png"
             alt="content"
+            height={100}
+            width={100}
           />
           
           <p className="leading-relaxed text-base">
